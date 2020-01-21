@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Дарья Трихлеб](https://up.htmlacademy.ru/htmlcss/27/user/1330525).
-* Наставник: Фёдор Базанов
+* Наставник: [Фёдор Базанов](https://htmlacademy.ru/profile/beacon).
 
 ---
 
