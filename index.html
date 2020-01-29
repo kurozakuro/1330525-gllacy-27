@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <style>
+      body{background-color: #96b2a2; /* Цвет фона, ибо не видно белое на белом*/
+      } 
+     </style>
   </head>
   <body>
     <header>
       <nav>
-        <img src="img/logo.svg" height="100" alt="Логотип Gllacy-Shop">
+        <img src="img/logo.svg" width="154" height="64" alt="GllacyShop">
           <ul>
             <li><a href="catalog.html">Каталог</a></li>
             <li><a href="price.html">Доставка и оплата</a></li>
@@ -15,13 +19,13 @@
           </ul>
           <ul>
             <li>
-               <button type="button">Поиск</button>
+              <button type="button"><img src="img/loupe.svg" width="22" height="22" alt="Поиск">Поиск</button>
              </li>
              <li>
-              <a href="#">Вход</a>
+              <a href="#"><img src="img/entrance.svg" width="22" height="22" alt="Вход">Вход</a>
              </li>
             <li>
-              <a href="#">Корзина</a>
+              <a href="#"><img src="img/basket.svg":hover width="22" height="22" alt="Корзина">Корзина</a>
              </li>
           </ul>
       </nav>
@@ -53,34 +57,38 @@
         <h3>Топ продаж</h3>
          <ul>
           <li>
+            <img src="img/hit.svg" width="60" height="60" alt="Хит!">
             <img src="img/ice-cream-1.jpg" width="250" height="250" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-            310<span>/кг</span>
+            310<img src="img/ruble.svg" width="30" height="30" alt="Рубль"><span>/кг</span>
             <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
           </li>
           <li>
+            <img src="img/hit.svg" width="60" height="60" alt="Хит!">
             <img src="img/ice-cream-2.jpg" width="250" height="250" alt="Сливочно-кофейное с кусочками шоколада">
-            380<span>/кг</span>
+            380<img src="img/ruble.svg" width="30" height="30" alt="Рубль"><span>/кг</span>
             <a href="#">Сливочно-кофейное с кусочками шоколада</a>
           </li>
           <li>
+            <img src="img/hit.svg" width="60" height="60" alt="Хит!">
             <img src="img/ice-cream-3.jpg" width="250" height="250" alt="Сливочно-клубничное с присыпкой из белого шоколада">
-            355<span>/кг</span>
+            355<img src="img/ruble.svg" width="30" height="30" alt="Рубль"><span>/кг</span>
             <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
           </li>
           <li>
+            <img src="img/hit.svg" width="60" height="60" alt="Хит!">
             <img src="img/ice-cream-4.jpg" width="250" height="250" alt="Сливочное крем-брюле с карамельной подливкой">
-            415<span>/кг</span>
+            415<img src="img/ruble.svg" width="30" height="30" alt="Рубль"><span>/кг</span>
             <a href="#">Сливочное крем-брюле с карамельной подливкой</a>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="about">
         <p>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес
         <ul>
-          <li>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
-          <li>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингридиенты и добавки произведены из натурального, экологически чистого сырья.</li>
-          <li>Закупка ингридиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
-          <li>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</li>
+          <li><img src="img/ice-cream.svg" width="50" height="50" alt="Современные технологии">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
+          <li><img src="img/eco.svg" width="50" height="50" alt="Экологично">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</li>
+          <li><img src="img/cow.svg" width="50" height="50" alt="Проверено">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
+          <li><img src="img/thermometer.svg" width="50" height="50" alt="Не знаю, что тут альтануть">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</li>
         </ul>
       </section>
       <section>
@@ -93,7 +101,8 @@
         <button type="button">Отправить</button>
       </section>
       <section>
-        <img src="map.jpg" width="150" height="150" alt="Карта">
+        <img src="img/pin.svg" width="140" height="80" alt="Не знаю, что тут альтануть">
+        <img src="map.jpg" width="150" height="150" alt="Карта где-то здесь">
       </section>
       <section>
         <p>Адрес главного офиса
@@ -108,19 +117,19 @@
     </main>
     <footer>
       <ul>
-        <li><a href="#">Твиттер</a></li>
-        <li><a href="#">Инстаграм</a></li>
-        <li><a href="#">Фейсбук</a></li>
-        <li><a href="#">Вконтакте</a></li>
+        <li><a href="#"><img src="img/twitter.svg" height="40" width="40" alt="Твиттер"></a></li>
+        <li><a href="#"><img src="img/instagram.svg" height="40" width="40" alt="Инстаграм"></a></li>
+        <li><a href="#"><img src="img/fb.svg" height="40" width="40" alt="Фейсбук"></a></li>
+        <li><a href="#"><img src="img/vk.svg" height="40" width="40" alt="Вконтакте"></a></li>
       </ul>
       <ul>
-        <li><a href="#">Для поставщиков</a></li>
+        <li><a href="#"><img src="img/heart.svg" height="12" width="12" alt="Для поставщиков">Для поставщиков</a></li>
         <li><a href="#">О производстве</a></li>
         <li><a href="#">Наши документы</a></li>
         <li><a href="#">Экологические стандарты</a></li>
       </ul>
       <p>
-        <img src="logo-html-academy.svg" height="100" alt="Логотип Академии">
+        <img src="img/logo-htmlacademy.svg" height="40" width="107" alt="Логотип Академии">
         Сделано: 
         <a href="https://htmlacademy.ru">HTML Academy</a>
       </p>
