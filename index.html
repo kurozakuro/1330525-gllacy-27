@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
@@ -11,33 +11,34 @@
         <img src="img/logo.svg" width="154" height="64" alt="GllacyShop">
           <ul>
             <li><a href="catalog.html">Каталог</a></li>
-            <ul>
-              <li><a href="#1">Новинки</a></li>
-              <li><a href="#2">Сливочное</a></li>
-              <li><a href="#3">Щербеты</a></li>
-              <li><a href="#4">Фруктовый лед</a></li>
-              <li><a href="#5">Мелорин</a></li>
-            </ul>
+              <ul>
+                <li><a href="#1">Новинки</a></li>
+                <li><a href="#2">Сливочное</a></li>
+                <li><a href="#3">Щербеты</a></li>
+                <li><a href="#4">Фруктовый лед</a></li>
+                <li><a href="#5">Мелорин</a></li>
+              </ul>
             <li><a href="price.html">Доставка и оплата</a></li>
             <li><a href="info.html">О Компании</a></li>
           </ul>
           <ul>
               <li>
-                <button type="button">Поиск</button><!--Как спрятать форму под кнопку?-->
-                  <form class="search-form" id="search-form" action="№" method="get">
+                <button type="button">Поиск</button>
+                  <form class="search-form" id="search-form" action="https://echo.htmlacademy.ru" method="get">
                   <input type="text" name="search" placeholder="Что ищем?">
                 </form>
               </li>
-              <li><button type="button">Вход</button></li>
-                  <form class="login-form" id="login-form" action="#" method="post">
+              <li><button type="button"><a href="#">Вход</a></button>
+                  <form class="login-form" id="login-form" action="https://echo.htmlacademy.ru" method="post">
                     <input type="email" name="email" placeholder="Электронная почта" required>
                     <input type="password" name="password" placeholder="Пароль" required>
-                    <input type="submit" value="Войти">
+                    <button type="button">Войти</button>
                       <a href="#">Забыли пароль?</a>
                       <a href="#">Новая регистрация</a>
                   </form>
+                </li>
               <li>
-                <a href="#"><img src="img/basket.svg" width="22" height="22" alt="Корзина">Корзина</a>
+                <a href="#">Корзина</a>
               </li>
             </ul>
       </nav>
@@ -45,7 +46,7 @@
     <main>
       <h1 class="visually-hidden">Gllacy-Shop</h1>
       <section>
-        <p>С 10 до 20, ежедневно<br>
+        <p>С 10 до 20, ежедневно
           <a href="tel:88124502525">8 812 450-25-25</a></p>
       </section>
       <section>
@@ -108,10 +109,10 @@
         <a href="#">10 способов сервировки фруктовых щербетов к столу</a>        
       </section>
       <section>
-        <form class="subscribe-form" id="subscribe-form" action="#" method="get">/>
-          <label>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</label>
+        <form class="subscribe-form" id="subscribe-form" action="https://echo.htmlacademy.ru" method="get">
+          <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
           <input type="email" name="subscribe-email" placeholder="Электронная почта" required>
-          <input type="submit" value="Отправить">
+          <button type="button">Отправить</button>
         </form>
       </section>
       <section>
@@ -125,13 +126,13 @@
         <p>Для заказов по телефону:</p>
         <p>8 812 450 25-25</p>
         <p>(с 10 до 20 ежедневно)</p>
-        <form class="feedback-form" id="feedback-form" action="#" method="post">
+        <form class="feedback-form" id="feedback-form" action="https://echo.htmlacademy.ru" method="post">
             <input id="user-name" type="text" name="user-name" placeholder="Как вас зовут?" required>
-            <label for="user-name"></label>
+            <label for="user-name">Как вас зовут?</label>
             <input id="user-email" type="text" name="user-email" placeholder="Ваша почта для ответа?" required>
-            <label for="user-email"></label>
+            <label for="user-email">Ваша почта для ответа?</label>
             <textarea id="user-message" name="message" placeholder="Напишите что-нибудь..." required></textarea>
-            <label for="user-message"></label>
+            <label for="user-message">Напишите что-нибудь...</label>
           <input type="submit" value="Отправить">
         </form>
       </section>
