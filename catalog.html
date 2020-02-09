@@ -78,7 +78,60 @@
           </ul>
         <h1>Сливочное мороженое</h1>
         <section>
-            <!--Форма-->
+            <form>
+              <p>Сортировка:</p>
+              <select name="half-width">
+                <option value="popular">по популярности</option>
+              </select>
+              <p>Цена: 100 руб. - 500 руб.</p>
+              <div class="range-slider">
+                <input type="number" value="0" name="min">
+                <input type="number" value="0" name="max">
+                <div class="range-slider-track">
+                  <div class="range-slider-pin range-slider-pin-min"></div>
+                  <div class="range-slider-pin range-slider-pin-max"></div>
+                </div>
+              </div>
+              <p>Жирность:</p>
+              <label>
+                <input type="radio" name="fat-content" value="0%">
+                <p>0&#37;</p>
+              </label>
+              <label>
+                <input type="radio" name="fat-content" value="to 10%" checked>
+                <p>до 10&#37;</p>
+              </label>
+              <label>
+                <input type="radio" name="fat-content" value="to 30%">
+                <p>до 30&#37;</p>
+              </label>
+              <label>
+                <input type="radio" name="fat-content" value="above 30%">
+                <p>выше 30&#37;</p>
+              </label>
+              <p>Наполнители:</p>
+              <label>
+                <input type="checkbox" checked>
+                <p>шоколадные</p>
+              </label>
+              <label>
+                <input type="checkbox" checked>
+                <p>сахарные присыпки</p>
+              </label>
+              <label>
+                <input type="checkbox">
+                <p>фрукты</p>
+              </label>
+              <label>
+                <input type="checkbox">
+                <p>сиропы</p>
+              </label>
+              <label>
+                <input type="checkbox">
+                <p>джемы</p>
+              </label>
+              <input type="submit" name="submit" value="Применить">
+            </form>
         </section>
         <section>
           <ul>
