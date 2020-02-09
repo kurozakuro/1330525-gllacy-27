@@ -78,7 +78,7 @@
           </ul>
         <h1>Сливочное мороженое</h1>
         <section>
-            <form>
+            <form action="https://echo.htmlacademy.ru" method="get">
               <p>Сортировка:</p>
               <select name="half-width">
                 <option value="popular">по популярности</option>
@@ -94,43 +94,43 @@
               </div>
               <p>Жирность:</p>
               <label>
-                <input type="radio" name="fat-content" value="0%">
-                <p>0&#37;</p>
+                <input type="radio" name="fat-content" value="0">
+                0&#37;
               </label>
               <label>
-                <input type="radio" name="fat-content" value="to 10%" checked>
-                <p>до 10&#37;</p>
+                <input type="radio" name="fat-content" value="10" checked>
+                до 10&#37;
               </label>
               <label>
-                <input type="radio" name="fat-content" value="to 30%">
-                <p>до 30&#37;</p>
+                <input type="radio" name="fat-content" value="30">
+                до 30&#37;
               </label>
               <label>
-                <input type="radio" name="fat-content" value="above 30%">
-                <p>выше 30&#37;</p>
+                <input type="radio" name="fat-content" value="30">
+                выше 30&#37;
               </label>
               <p>Наполнители:</p>
               <label>
-                <input type="checkbox" checked>
-                <p>шоколадные</p>
+                <input type="checkbox" name="fillers" checked>
+                шоколадные
               </label>
               <label>
-                <input type="checkbox" checked>
-                <p>сахарные присыпки</p>
+                <input type="checkbox" name="fillers" checked>
+                сахарные присыпки
               </label>
               <label>
-                <input type="checkbox">
-                <p>фрукты</p>
+                <input type="checkbox" name="fillers">
+                фрукты
               </label>
               <label>
-                <input type="checkbox">
-                <p>сиропы</p>
+                <input type="checkbox" name="fillers">
+                сиропы
               </label>
               <label>
-                <input type="checkbox">
-                <p>джемы</p>
+                <input type="checkbox" name="fillers">
+                джемы
               </label>
-              <input type="submit" name="submit" value="Применить">
+              <button type="submit">Применить</button>
             </form>
         </section>
         <section>

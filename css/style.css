@@ -6,11 +6,117 @@ body {
   background-color: #96b2a2;
 }
 
+.main-navigation {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: 'Roboto', bold, sans-serif;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
 .visually-hidden {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-  }
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.about {
+  width:1145px;
+  height:310px;
+  background-image: url("../img/wafer.jpg");
+  background-repeat: repeat;
+  background-color: #ffffff;
+  Border-radius: 25px;
+}
+.about > p {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Roboto', medium, sans-serif;
+  font-size: 24px;
+  color: #000000;
+}
+
+.about > ul {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Roboto', Regular, sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  color: #000000;
+  list-style: none;
+}
+
+.raspberries { 
+  width:560px;
+  height:230px;
+  background-image: url("../img/rasp.png");
+  background-repeat: no-repeat; 
+}
+.raspberries > h3 { 
+  font-family: 'Roboto', bold, sans-serif;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.raspberries > p { 
+  font-family: 'Roboto', bold, sans-serif;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.chocolate {
+  width:560px;
+  height:230px;
+  background-image: url("../img/chocolate.png");
+  background-repeat: no-repeat; 
+}
+.chocolate > h3 { 
+  font-family: 'Roboto', bold, sans-serif;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.chocolate > p { 
+  font-family: 'Roboto', bold, sans-serif;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.news {
+  background-image: url("../img/news.png");
+  background-repeat: no-repeat;
+  width:560px;
+  height:220px;
+  font-family: 'Roboto', bold, sans-serif;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-top: 15px;
+  
+}
+.news > p {
+  font-family: 'Roboto', medium, sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  color: #000000;
+}
+
+.subscribe-form {
+  background-image: url("../img/mailing.png");
+  background-repeat: no-repeat; 
+  font-family: 'Roboto', Regular, sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  color: #5a5a5a;
+}
 
