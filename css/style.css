@@ -1,19 +1,10 @@
-@font-face {
-  font-family: 'Roboto', sans-serif;
-  src: url('../fonts/Roboto-Bold.ttf');
-  src: url('../fonts/Roboto-Medium.ttf');
-  src: url('../fonts/Roboto-Regular.ttf');
-} 
-
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   background-color: #96b2a2;
 }
 
-body a {
+a {
   color: #ffffff;
   text-decoration-color: #ffffff;
   list-style: none;
@@ -23,7 +14,7 @@ body a {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .site-navigation,
@@ -50,13 +41,13 @@ body a {
 .about > p {
   font-size: 24px;
   color: #323232;
-  font-weight: medium;
+  font-weight: 500;
 }
 
-.about > ul {
+.about_technology {
   color: #323232;
   list-style: none;
-  font-weight: Regular;
+  font-weight: 400;
 }
 
 .raspberries { 
@@ -64,7 +55,7 @@ body a {
   height:230px;
   background-image: url("../img/rasp.png");
   background-repeat: no-repeat;
-  font-weight: bold;
+  font-weight: 700;
 }
 .raspberries > h3 { 
   font-size: 35px;
@@ -78,7 +69,7 @@ body a {
   height:230px;
   background-image: url("../img/chocolate.png");
   background-repeat: no-repeat; 
-  font-weight: bold;
+  font-weight: 700;
 }
 .chocolate > h3 { 
   font-size: 35px;
@@ -96,7 +87,7 @@ body a {
 .news > p {
   font-size: 16px;
   color: #323232;
-  font-weight: medium;
+  font-weight: 500;
 }
 .news > a {
   font-size: 24px;
@@ -110,7 +101,7 @@ body a {
   background-repeat: no-repeat; 
   font-size: 16px;
   color: #5a5a5a;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .address {
@@ -128,7 +119,7 @@ body a {
   color: #ffffff;
   list-style: none;
 }
-footer {
+.footer {
   font-weight: Regular;
   color: #ffffff;
   font-size: 13px;
@@ -139,7 +130,7 @@ footer {
   list-style: none;
 }
 .provider {
-  font-weight: bold;
+  font-weight: 700;
 }
 .items a {
   font-weight: medium;
@@ -147,7 +138,7 @@ footer {
 }
 .items {
   font-size: 46px;
-  font-weight: bold;
+  font-weight: 700;
   list-style: none;
 
 }
