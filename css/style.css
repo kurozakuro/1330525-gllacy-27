@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+      url('../fonts/Roboto-Bold.woff2') format('woff2'),
+      url('../fonts/Roboto-Bold.woff') format('woff');
+      font-display: swap;
+      font-weight: 700;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Regular'), local('Roboto-Regular'),
+      url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff');
+      font-display: swap;
+      font-weight: 300;
+      font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+      url('../fonts/Roboto-Medium.woff2') format('woff2'),
+      url('../fonts/Roboto-Medium.woff') format('woff');
+      font-display: swap;
+      font-weight: 500;
+      font-style: normal;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
@@ -31,8 +61,6 @@ a {
 }
 
 .about {
-  width:1145px;
-  height:310px;
   background-image: url("../img/wafer.jpg");
   background-repeat: repeat;
   background-color: #ffffff;
@@ -47,12 +75,10 @@ a {
 .about_technology {
   color: #323232;
   list-style: none;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .raspberries { 
-  width:560px;
-  height:230px;
   background-image: url("../img/rasp.png");
   background-repeat: no-repeat;
   font-weight: 700;
@@ -65,8 +91,6 @@ a {
 }
 
 .chocolate {
-  width:560px;
-  height:230px;
   background-image: url("../img/chocolate.png");
   background-repeat: no-repeat; 
   font-weight: 700;
@@ -81,17 +105,16 @@ a {
 .news {
   background-image: url("../img/news.png");
   background-repeat: no-repeat;
-  width:560px;
-  height:220px;
 }
+
 .news > p {
   font-size: 16px;
   color: #323232;
   font-weight: 500;
 }
-.news > a {
+.last_news {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
   color: #5a5a5a;
   text-decoration-color: #5a5a5a;
 }
@@ -101,18 +124,18 @@ a {
   background-repeat: no-repeat; 
   font-size: 16px;
   color: #5a5a5a;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .address {
   color: #323232;
-  font-weight: Regular;
+  font-weight: 300;
   font-size: 14px;
   background-image: url("../img/addres.png");
   background-repeat: no-repeat; 
 }
 .address > p {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
 }
 .social {
@@ -120,7 +143,7 @@ a {
   list-style: none;
 }
 .footer {
-  font-weight: Regular;
+  font-weight: 300;
   color: #ffffff;
   font-size: 13px;
 }
@@ -133,7 +156,7 @@ a {
   font-weight: 700;
 }
 .items a {
-  font-weight: medium;
+  font-weight: 500;
   font-size: 16px;
 }
 .items {
