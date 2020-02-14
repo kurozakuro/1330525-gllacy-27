@@ -82,6 +82,7 @@ a {
   background-image: url("../img/rasp.png");
   background-repeat: no-repeat;
   font-weight: 700;
+  width:560px;
 }
 .raspberries > h3 { 
   font-size: 35px;
@@ -94,6 +95,7 @@ a {
   background-image: url("../img/chocolate.png");
   background-repeat: no-repeat; 
   font-weight: 700;
+  width:560px;
 }
 .chocolate > h3 { 
   font-size: 35px;
