@@ -84,10 +84,10 @@ a {
   font-weight: 700;
   width:560px;
 }
-.raspberries > h3 { 
+.free { 
   font-size: 35px;
 }
-.raspberries > p { 
+.purchase { 
   font-size: 18px;
 }
 
@@ -96,12 +96,6 @@ a {
   background-repeat: no-repeat; 
   font-weight: 700;
   width:560px;
-}
-.chocolate > h3 { 
-  font-size: 35px;
-}
-.chocolate > p { 
-  font-size: 18px;
 }
 
 .news {
