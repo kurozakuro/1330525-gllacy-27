@@ -80,10 +80,13 @@ a {
 
 .raspberries { 
   background-image: url("../img/rasp.png");
+}
+.sale {
   background-repeat: no-repeat;
   font-weight: 700;
   width:560px;
 }
+
 .free { 
   font-size: 35px;
 }
@@ -93,9 +96,6 @@ a {
 
 .chocolate {
   background-image: url("../img/chocolate.png");
-  background-repeat: no-repeat; 
-  font-weight: 700;
-  width:560px;
 }
 
 .news {
