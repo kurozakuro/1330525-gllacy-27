@@ -81,16 +81,17 @@ a {
 .raspberries { 
   background-image: url("../img/rasp.png");
 }
-.sale {
+
+.promotion {
   background-repeat: no-repeat;
   font-weight: 700;
   width:560px;
 }
 
-.free { 
+.promotion_title { 
   font-size: 35px;
 }
-.purchase { 
+.promotion_text { 
   font-size: 18px;
 }
 
