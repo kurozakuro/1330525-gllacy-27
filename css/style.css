@@ -27,15 +27,18 @@
       font-weight: 500;
       font-style: normal;
 }
+
 /* Сетка */
 .wrapper {
   min-width: 900px;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .header {
   display: flex;
 }
+
 .main-navigation {
   display: flex; 
 }
@@ -90,11 +93,14 @@
 
 .container_widgets {
   display: flex;
+  justify-content: space-around;
 }
+
 .footer {
   width: 1146px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .social {
@@ -108,14 +114,15 @@
   width: 304px;
   display: flex;
   justify-content: space-between;
-  margin-left: 214px;
+  
 }
-.htmlacademy {
+
+.copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 225px;
 }
+
 .catalog-items {
   display: flex;
   justify-content: space-around;
@@ -129,12 +136,14 @@
   padding: 0;
   margin: 0;
 }
+
 .news {
   width: 560px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
+
 .subscribe-form {
   width: 560px;
   display: flex;
@@ -150,12 +159,15 @@
   padding-left: 954px;
 }
 
+.map {
+  position: relative;
+}
 
-
-
-
-
-
+.address {
+  position: absolute;
+  top: 20px;
+  right: 27px;
+}
 
 /* Разметка */
 body {
@@ -194,9 +206,11 @@ a {
   background-image: url("../img/wafer.jpg");
   background-repeat: repeat;
   background-color: #ffffff;
-  Border-radius: 25px;
+  border-radius: 25px;
   width: 1150px;
+  margin: 0 auto;
 }
+
 .about > p {
   font-size: 24px;
   color: #323232;
@@ -206,7 +220,7 @@ a {
 .about_technology {
   color: #323232;
   list-style: none;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 16px;
 }
 
@@ -223,6 +237,7 @@ a {
 .promotion_title { 
   font-size: 35px;
 }
+
 .promotion_text { 
   font-size: 18px;
 }
@@ -241,6 +256,7 @@ a {
   color: #323232;
   font-weight: 500;
 }
+
 .last_news {
   font-size: 24px;
   font-weight: 700;
@@ -262,15 +278,19 @@ a {
   font-size: 14px;
   background-image: url("../img/addres.png");
   background-repeat: no-repeat; 
+  width: 300px;
 }
+
 .address > p {
   font-weight: 700;
   font-size: 18px;
 }
+
 .social {
   color: #ffffff;
   list-style: none;
 }
+
 .footer {
   font-weight: 300;
   color: #ffffff;
@@ -281,19 +301,23 @@ a {
   text-decoration-color: #ffffff;
   list-style: none;
 }
+
 .provider {
   font-weight: 700;
 }
+
 .catalog-items a {
   font-weight: 500;
   font-size: 16px;
 }
+
 .catalog-items {
   font-size: 46px;
   font-weight: 700;
   list-style: none;
 
 }
+
 .catalog-items span {
   font-size: 30px;
 }
