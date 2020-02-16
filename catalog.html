@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header class="header">
         <nav class="main-navigation">
             <a href="index.html">
               <img src="img/logo.svg" width="154" height="64" alt="GllacyShop">
@@ -16,7 +16,7 @@
             <ul class="site-navigation">
               <li>
                 <a href="catalog.html">Каталог</a>
-                <ul>
+                <ul class="visually-hidden">
                   <li><a href="#1">Новинки</a></li>
                   <li><a href="#2">Сливочное</a></li>
                   <li><a href="#3">Щербеты</a></li>
@@ -27,24 +27,24 @@
               <li><a href="info.html">О Компании</a></li>
               </ul>
         </nav>
-          <ul class="user-navigation">
-              <li>
-                <button type="button">Поиск</button>
-                  <form class="search-form" id="search-form" action="https://echo.htmlacademy.ru" method="get">
-                  <input type="text" name="search" placeholder="Что ищем?">
-                </form>
+        <ul class="user-navigation">
+          <li>
+            <button type="button">Поиск</button>
+            <form class="search-form visually-hidden" id="search-form" action="https://echo.htmlacademy.ru" method="get">
+              <input type="text" name="search" placeholder="Что ищем?">
+            </form>
+            </li>
+          <li>
+          <a href="#">Вход</a>
+          <form class="login-form visually-hidden" id="login-form" action="https://echo.htmlacademy.ru" method="post">
+            <input type="email" name="email" placeholder="Электронная почта" required>
+            <input type="password" name="password" placeholder="Пароль" required>
+            <button type="submit">Войти</button>
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
+          </form>
               </li>
-              <li>
-                <a href="#">Вход</a>
-                <form class="login-form" id="login-form" action="https://echo.htmlacademy.ru" method="post">
-                  <input type="email" name="email" placeholder="Электронная почта" required>
-                  <input type="password" name="password" placeholder="Пароль" required>
-                  <button type="submit">Войти</button>
-                  <a href="#">Забыли пароль?</a>
-                  <a href="#">Новая регистрация</a>
-                </form>
-              </li>
-              <li>
+              <li class="visually-hidden">
                 <div>
                   <button type="button">X</button>
                   <img src="img/ice-cream-1.png" width="32" height="32" alt="Пломбир с апельсиновым джемом">
@@ -67,7 +67,7 @@
             </ul>
       </header>
       <main>
-          <ul>
+          <ul class="catalog_navigation">
               <li><a href="index.html">Главная</a></li>
               <li><a href="catalog.html">Каталог</a></li>
               <li>Сливочное</li>
@@ -207,7 +207,7 @@
         </section>
         <section>
           <nav>
-            <ul>
+            <ul class="pages">
               <li><a href="#">1</a></li>
               <li><a href="#">2</a></li>
               <li><a href="#">3</a></li>
