@@ -50,10 +50,18 @@
   display: flex; 
   justify-content: space-around;
   width: 270px;
+  margin-left: 300px;
 }
 .promotions {
   display: flex; 
   justify-content: space-around;
+}
+
+.hit {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
  .about {
