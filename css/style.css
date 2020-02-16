@@ -175,6 +175,16 @@
   right: 27px;
 }
 
+.subscribe {
+  width: 560px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: nowrap;
+}
+
 /* Разметка */
 body {
   font-family: 'Roboto', sans-serif;
@@ -270,7 +280,7 @@ a {
   text-decoration-color: #5a5a5a;
 }
 
-.subscribe-form {
+.subscribe {
   background-image: url("../img/mailing.png");
   background-repeat: no-repeat; 
   font-size: 16px;
