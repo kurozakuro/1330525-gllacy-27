@@ -84,11 +84,13 @@
 .technology {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  width: 1145px;
 }
 
-.about_technology_item {
-  justify-content: space-between;
+.about_technology {
+  display: flex;
+  width: 50%;
 }
 
 .container_widgets {
@@ -114,7 +116,11 @@
   width: 304px;
   display: flex;
   justify-content: space-between;
-  
+  flex-wrap: wrap;
+}
+
+.links li {
+  width: 50%;
 }
 
 .copyright {
@@ -315,7 +321,6 @@ a {
   font-size: 46px;
   font-weight: 700;
   list-style: none;
-
 }
 
 .catalog-items span {
