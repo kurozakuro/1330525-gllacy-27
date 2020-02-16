@@ -57,43 +57,80 @@
   justify-content: space-around;
 }
 
-.hit {
+.items {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
- .about {
+.item {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  width: 267px;
+  justify-content: space-around;
 }
 
-.about_technology {
+.technology {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about_technology_item {
+  justify-content: space-between;
 }
 
 .container_widgets {
   display: flex;
 }
 .footer {
+  width: 1146px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 186px;
+}
+
+.links {
+  width: 304px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 214px;
+}
+.htmlacademy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 225px;
+}
 .catalog-items {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  position: relative;
   flex-wrap: wrap;
 }
-.item {
-  display: inline-block;
-  width: 267px;
+
+.container_widgets {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.news {
+  width: 560px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.subscribe-form {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Разметка */
@@ -134,7 +171,7 @@ a {
   background-repeat: repeat;
   background-color: #ffffff;
   Border-radius: 25px;
-  width: 1145px;
+  width: 1150px;
 }
 .about > p {
   font-size: 24px;
@@ -145,7 +182,7 @@ a {
 .about_technology {
   color: #323232;
   list-style: none;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 16px;
 }
 
