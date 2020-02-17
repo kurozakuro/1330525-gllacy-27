@@ -219,7 +219,7 @@ a {
 }
 
 .about {
-  background-image: url("../img/wafer.jpg");
+  background-image: url("../img/wafer.png");
   background-repeat: repeat;
   background-color: #ffffff;
   border-radius: 25px;
@@ -335,4 +335,73 @@ a {
 
 .catalog-items span {
   font-size: 30px;
+}
+
+.store_mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 14px;
+  font-weight: 700;
+  align-items: flex-end;
+}
+
+.phone {
+  display: flex;
+  font-size: 22px;
+}
+
+.price {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.kilo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.item_name {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  background-color: #ea6448;
+  border-radius: 25px;
+  margin-top: 5px;
+  width: 168px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.button_rasp {
+  width: 140px;
+}
+
+.button_choco {
+  width: 164px;
+}
+
+.button_login {
+  width: 100px;
+}
+
+.button_slider {
+  font-size: 32px;
+  width: 280px;
+}
+
+.button_feedback {
+  width: 252px;
+}
+
+.button_sub {
+  width: 110px;
 }
