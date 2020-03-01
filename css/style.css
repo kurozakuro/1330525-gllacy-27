@@ -78,7 +78,8 @@
   display: flex;
   flex-direction: column;
   width: 267px;
-  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
 
 .technology {
@@ -222,9 +223,13 @@ a {
   background-image: url("../img/wafer.png");
   background-repeat: repeat;
   background-color: #ffffff;
-  border-radius: 25px;
+  border-radius: 15px;
   width: 1150px;
-  margin: 0 auto;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  margin-bottom: 30px;
 }
 
 .about > p {
@@ -238,33 +243,45 @@ a {
   list-style: none;
   font-weight: 300;
   font-size: 16px;
+  padding-bottom: 10px;
 }
 
 .raspberries { 
   background-image: url("../img/rasp.png");
+  border-radius: 15px;
 }
 
 .promotion {
   background-repeat: no-repeat;
   font-weight: 700;
-  width:560px;
+  width: 560px;
 }
 
 .promotion_title { 
   font-size: 35px;
+  margin-left: 20px;
+  margin-top: 22px;
 }
 
 .promotion_text { 
   font-size: 18px;
+  margin-left: 20px;
+  margin-top: -15px;
+  margin-bottom: 35px;
+  margin-right: 20px;
 }
 
 .chocolate {
   background-image: url("../img/chocolate.png");
+  border-radius: 15px;
 }
 
 .news {
   background-image: url("../img/news.png");
   background-repeat: no-repeat;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-left: 22px;
 }
 
 .news > p {
@@ -278,6 +295,9 @@ a {
   font-weight: 700;
   color: #5a5a5a;
   text-decoration-color: #5a5a5a;
+  padding-right: 260px;
+  padding-bottom: 85px;
+  margin-bottom: 35px;
 }
 
 .subscribe {
@@ -286,6 +306,24 @@ a {
   font-size: 16px;
   color: #5a5a5a;
   font-weight: 300;
+  margin-top: 15px;
+}
+
+.subscribe > p {
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.subscribe-email {
+  font-weight: 300;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #5a5a5a;
+  width: 360px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 30px;
 }
 
 .address {
@@ -295,11 +333,19 @@ a {
   background-image: url("../img/addres.png");
   background-repeat: no-repeat; 
   width: 300px;
+  margin-top: 40px;
 }
 
-.address > p {
+.address_text {
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 100px;
+}
+
+.address_text > p {
   font-weight: 700;
   font-size: 18px;
+  margin-right: -90px;
 }
 
 .social {
@@ -383,10 +429,14 @@ a {
 
 .button_rasp {
   width: 140px;
+  margin-left: 370px;
 }
 
 .button_choco {
   width: 164px;
+  margin-top: 20px;
+  margin-left: 345px;
+  margin-bottom: 25px;
 }
 
 .button_login {
@@ -396,12 +446,27 @@ a {
 .button_slider {
   font-size: 32px;
   width: 280px;
+  border: none;
 }
 
 .button_feedback {
-  width: 252px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
 }
 
 .button_sub {
-  width: 110px;
+  width: 130px;
+  margin-top: 25px;
+  margin-right: 25px;
+  border: none;
+}
+
+.hit_image {
+  padding-right: 200px;
+  position: absolute;
+  z-index: 1;
 }

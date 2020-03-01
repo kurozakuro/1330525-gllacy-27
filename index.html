@@ -77,28 +77,28 @@
               <h3 class="visually-hidden">Топ продаж</h3>
               <ul class="items">
                 <li class="item">
-                  <img src="img/hit.svg" width="60" height="60" alt="Хит!">
+                  <img class="hit_image" src="img/hit.svg" width="60" height="60" alt="Хит!">
                   <img src="img/ice-cream-1.png" width="250" height="250" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
                   <div class="price">310&#8381;<span class="kilo">/кг</span></div>
                   <a href="#" class="item_name">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
                   <a href="#" class="button">Быстрый просмотр</a>
                 </li>
                 <li class="item">
-                  <img src="img/hit.svg" width="60" height="60" alt="Хит!">
+                  <img class="hit_image" src="img/hit.svg" width="60" height="60" alt="Хит!">
                   <img src="img/ice-cream-2.png" width="250" height="250" alt="Сливочно-кофейное с кусочками шоколада">
                   <div class="price">380&#8381;<span class="kilo">/кг</span></div>
                   <a href="#" class="item_name">Сливочно-кофейное с кусочками шоколада</a>
                   <a href="#" class="button">Быстрый просмотр</a>
                 </li>
                 <li class="item">
-                  <img src="img/hit.svg" width="60" height="60" alt="Хит!">
+                  <img class="hit_image" src="img/hit.svg" width="60" height="60" alt="Хит!">
                   <img src="img/ice-cream-3.png" width="250" height="250" alt="Сливочно-клубничное с присыпкой из белого шоколада">
                   <div class="price">355&#8381;<span class="kilo">/кг</span></div>
                   <a href="#" class="item_name">Сливочно-клубничное с присыпкой из белого шоколада</a>
                   <a href="#" class="button">Быстрый просмотр</a>
                 </li>
                 <li class="item">
-                  <img src="img/hit.svg" width="60" height="60" alt="Хит!">
+                  <img class="hit_image" src="img/hit.svg" width="60" height="60" alt="Хит!">
                   <img src="img/ice-cream-4.png" width="250" height="250" alt="Сливочное крем-брюле с карамельной подливкой">
                   <div class="price">415&#8381;<span class="kilo">/кг</span></div>
                   <a href="#" class="item_name">Сливочное крем-брюле с карамельной подливкой</a>
@@ -123,7 +123,7 @@
         <section class="subscribe">
           <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
           <form class="subscribe-form" id="subscribe-form" action="https://echo.htmlacademy.ru" method="get">
-            <input type="email" name="subscribe-email" placeholder="email@example.com" required>
+            <input class="subscribe-email" type="email" name="subscribe-email" placeholder="email@example.com" required>
             <button type="submit" class="button button_sub">Отправить</button>
           </form>
         </section>
@@ -131,13 +131,15 @@
         <section class="map">
           <img src="img/map-pin.jpg" width="1200" height="420" alt="Карта">
           <div class="address">
-            Адрес главного офиса
-            и офлайн-магазина:
-            <p>ул. Большая Конюшенная
-            19/8, Санкт-Петербург</p>
-            Для заказов по телефону:
-            <p>8 812 450 25-25</p>
-            (с 10 до 20 ежедневно)
+            <div class="address_text">
+              Адрес главного офиса
+              и офлайн-магазина:
+              <p>ул. Большая Конюшенная
+              19/8, Санкт-Петербург</p>
+              Для заказов по телефону:
+              <p>8 812 450 25-25</p>
+              (с 10 до 20 ежедневно)
+              </div>
           <button type="button" class="button button_feedback">Форма обратной связи</button>
             <form class="feedback-form visually-hidden" id="feedback-form" action="https://echo.htmlacademy.ru" method="post">  
               <input id="user-name" type="text" name="user-name" placeholder="Как вас зовут?" required>
